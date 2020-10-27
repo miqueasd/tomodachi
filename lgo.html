@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<script src="https://kit.fontawesome.com/2a6da40237.js" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin t&iacute;tulo</title>
+<link href="estilo logo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<center>
+
+  <div id="top"> top  </div>
+<div id="Logo"><i class="fas fa-cat"></i></div>
+<div id="menu">menu</div>
+<div id="slider">
+
+<div class="w3-content w3-section" style="max-width:500px">           
+  <img class="mySlides" src="bosque.jpg" style="width:100%">
+  <img class="mySlides" src="paraguas.png" style="width:100%">
+  <img class="mySlides" src="MultiColor.jpg" style="width:100%"></div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+<div id="colo25">colo25</div>
+<div id="colo25">colo25</div>
+<div id="colo25">colo25</div>
+<div id="colo25">colo25</div>
+<div id="colo33"></div>
+<div id="colo33"></div>
+<div id="colo33"></div>
+<div id="Bottom"></div>
+
+<p>&nbsp;	</p>
+</center>
+</body>
+</html>
